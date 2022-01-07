@@ -23,7 +23,7 @@ const Profile = (props) => (
             </div>
             <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="intro-image">
-                  <Image field={props.fields.image} editable={true} height="100%" width="100%"></Image>
+                <Image field={props.fields.image} editable={true} height="100%" width="100%"></Image>
                 </div>
             </div>
         </div>
