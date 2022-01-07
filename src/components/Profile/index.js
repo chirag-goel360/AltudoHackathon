@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, Image } from '@sitecore-jss/sitecore-jss-react';
+import { Text, Image, Link } from '@sitecore-jss/sitecore-jss-react';
 import '../css/bootstrap.css';
 import '../css/font-awesome.css';
 import '../css/fakeLoader.css';
@@ -17,8 +17,8 @@ const Profile = (props) => (
             <div class="col-md-8 col-sm-12 col-xs-12">
                 <div class="intro-caption">
                     <span><Text field={props.fields.profile}></Text></span>
-                    <h3><Text field={props.fields.designation}></Text></h3>
-                    <button class="button"><Text field={props.fields.btntext}></Text></button>
+                    <h2><Text field={props.fields.designation}></Text></h2>
+                    <button class="button" ><Link field={props.fields.btnlink} /> : )</button>
                 </div>
             </div>
             <div class="col-md-4 col-sm-12 col-xs-12">

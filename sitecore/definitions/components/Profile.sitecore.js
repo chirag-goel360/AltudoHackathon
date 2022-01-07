@@ -14,7 +14,6 @@ export default function(manifest) {
       { name: 'profile', type: CommonFieldTypes.SingleLineText },
       { name: 'designation', type: CommonFieldTypes.SingleLineText },
       { name: 'image', type: CommonFieldTypes.Image },
-      { name: 'btntext', type: CommonFieldTypes.SingleLineText},
       { name: 'btnlink', type: CommonFieldTypes.GeneralLink }
     ],
     /*
